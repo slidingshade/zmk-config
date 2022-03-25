@@ -55,7 +55,7 @@
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
    &trans &none      &none    &none &none &none &kp GRAVE        &none &none &none  &none  &none  &none  &trans
-          &trans &none &kp HOME &kp PAGE_DOWN &kp PAGE_DOWN &kp END         &kp LEFT   &kp DOWN &kp UP    &kp RIGHT &none  &trans
+          &trans &none &kp HOME &kp PAGE_UP  &kp PAGE_DOWN &kp END         &kp LEFT   &kp DOWN &kp UP    &kp RIGHT &none  &trans
           &trans          &kp TILDE       &kp LBRC &kp RBRC &kp LPAR &kp RPAR          &kp LBKT &kp RBKT  &kp SEMI  &kp COLON &none &trans
                                                            &trans &trans &lt ADJ SPACE   &lt ADJ SPACE &trans &trans
                         >;
