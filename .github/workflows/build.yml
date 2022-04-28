@@ -50,9 +50,6 @@ jobs:
         id: west-build-skean-left
         with:
           args: 'build "-s zmk/app -b skean_left -- -DZMK_CONFIG=/github/workspace/config"'
-      - name: Skean DTS File
-        if: ${{ always() }}
-        run: cat -n build/zephyr/skean_left.dts.pre.tmp
       - name: Skean Left Kconfig file
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
